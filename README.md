@@ -18,7 +18,10 @@ We need to analyze the key indicators for our Pizza sales data to gain insights 
 •	Average Order Value
 •	Total Pizzas Sold
 •	Average Pizzas Per Order
+
+
 Charts requirement We would like to visualize various aspects of our Pizza sales data to gain insights and understand key trends. We have identified the following requirements for creating charts :
+
 
 •	Daily trend for Total Orders
 •	Monthly trend for Total Orders
@@ -26,13 +29,18 @@ Charts requirement We would like to visualize various aspects of our Pizza sales
 •	Percentage of sales by pizza Size
 •	Total pizzas sold by pizza Category
 •	Top 5 best selling & Bottom 5 worst selling pizzas
+
+
 OBJECTIVES
+
+
 Conduct a comprehensive sales performance analysis for a pizza store using SQL queries and visualize the findings using Power BI. The objective is to gain insights into sales trends, revenue distribution, and top performing products to inform strategic decision-making and optimize sales strategies.
 
 DELIVERABLES
 
 
 1. SQL Queries:
+   
 • Extract and aggregate sales data from the pizza sales dataset to calculate key metrics such as total sales revenue, average order value, Total Orders.
 
 • Analyze sales trends over time (hourly, daily, monthly) to identify peak sales periods and seasonal variations.
@@ -40,6 +48,8 @@ DELIVERABLES
 • Calculate sales performance metrics for individual products, including best-selling pizzas, popular pizza sizes, and revenue contribution by product category.
 
 2. Power BI visualizations:
+
+   
 • Develop interactive dashboards and visualizations to present the analysis findings in a clear and visually appealing manner according to business requirement.
 
 • Create line charts to visualize sales trends over time, with filters for different time periods.
@@ -128,50 +138,79 @@ columns : 4
 
 
 •	quantity : The number of units of a specific pizza variant ordered within an order.
+
+
 3. Data Quality Assessment
+
+   
 The datasets appears to be relatively clean, with no missing values or obvious data errors. However, further exploration may reveal outliers or inconsistencies that need to be addressed during data cleaning.
 
 
-4. CRAFTING QUERIES
+5. CRAFTING QUERIES
 
 1. Measure KPI’s
+
+   
 To measure and analyze various aspects of pizza sales data to assess sales performance.
 
 •	Total revenue generated from pizza sales ?
+
 •	Total number of orders placed ?
+
 •	Average Order Value ?
+
 •	Total number of pizzas sold ?
+
 •	Average pizzas per order ?
+
 •	Total quantity sold from each pizza category ?
+
 2. Sales trend
+   
 To analyze how sales of pizza products vary seasonally or over specific time period.
 
 •	Find peak time hours based on total orders ?
+
 •	Average number of pizzas ordered per day ?
+
 •	Order trend based on days ?
+
 •	Order trend based on months ?
-•	Quarter-wise sales ?
-•	Cumulative revenue over time ?
+
+
 3. Product popularity
+
+   
 To measure the popularity and demand for different pizza products.
 
 •	Category-wise distribution of pizzas ?
+
 •	Most expensive pizza ?
+
 •	Top 5 best selling pizza based on Total Orders ?
-•	Top 3 pizzas based on sales for each pizza category ?
+
+•	Top 5 pizzas based on sales for each pizza category ?
+
 •	Percentage of sales by pizza category ?
+
 •	Percentage of sales by pizza size ?
 
 
 
 5. INSIGHTS
+
+   
 • FRIDAYS, THURSDAYS and SATURDAYS have the highest sales volume, comprising about 47% of total weekly sales, while Sundays and Tuesdays are typically slower days with lower sales.
+
 
 • The busiest hours for pizza orders are between 12:00 PM to 1:00 PM and 5:00 PM to 6:00 PM, indicating high demand during lunch time and evening time.
 
+
 • Peak sales occur during the SECOND QUARTER of the year and JULY being the month with highest sale.
 
+
 • LARGE-sized pizzas are the most popular choice among customers, representing about 46% of total sales, followed by MEDIUM (30%) and SMALL (22%) sizes.
+
 
 • Percentage share of total sales by all four Pizza Categories are almost same with CLASSIC category being the highest followed by SUPREME category.
 
