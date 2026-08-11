@@ -25,5 +25,5 @@ A Power BI Business Analytics Dashboard evaluating restaurant sales revenue, ord
 ## 👤 Author
 
 **Kritika Jaiswal**  
-- LinkedIn: [Kritika Jaiswal](https://www.linkedin.com/in/kritika-jaiswal-1405)  
+- LinkedIn: [Kritika Jaiswal](https://www.linkedin.com/in/kritika-jaiswal205)  
 - GitHub: [@JaiswalKritika](https://github.com/JaiswalKritika)
